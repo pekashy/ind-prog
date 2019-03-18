@@ -44,7 +44,7 @@ def test_gate(nums):
             answ = answ + num
         answ = answ + ' '
 
-    return answ
+    return answ[:-1]
 
 
 nums = sys.argv[1:]

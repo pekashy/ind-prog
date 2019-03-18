@@ -1,5 +1,5 @@
 import unittest
-import fizzbuzz.py
+from fizzbuzz import *
 
 class TestStringMethods(unittest.TestCase):
 
