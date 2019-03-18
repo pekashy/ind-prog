@@ -30,9 +30,24 @@ def check(number_str, delimiter):
     
     return False #if we get here we are likely to have unknown delimiter
 
+def test_gate(nums):
+    answ = ''
+    for num in nums:
+        unchange = True
+        if check(num, 3):
+            unchange = False
+            answ = answ + 'fizz'
+        if check(num, 5):
+            unchange = False
+            answ = answ + 'buzz'
+        if unchange:
+            answ = answ + num
+        answ = answ + ' '
 
-npt = sys.stdin.readline()
-nums = re.findall("[-\d]+", npt)
+    return answ
+
+
+nums = sys.argv[1:]
 answ = ''
 for num in nums:
     unchange = True
