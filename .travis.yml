@@ -5,7 +5,7 @@ install: true
 script: python fizzbuzz/test.py
 deploy:
   provider: bintray
-  file: "fizzbuzz/bintray"
+  file: "fizzbuzz/fizzbuzz.py"
   user: "pekashy"
   key: "08d99a739d9957629ce84c66c256d3f55033b180"
   skip_cleanup: true # to upload artifacts created during the build
