@@ -1,7 +1,7 @@
 {
     "package": {
         "name": "fizzbuzz",
-        "repo": "fizzbuzz",
+        "repo": "ind-prog",
         "subject": "pekashy",
         "desc": "A first bintray push",
         "labels": ["cool", "awesome", "gorilla"],
