@@ -2,6 +2,7 @@
     "package": {
         "name": "fizzbuzz",
         "repo": "ind-prog",
+        "userOrg": "pksh",
         "subject": "pekashy",
         "desc": "A first bintray push",
         "labels": ["cool", "awesome", "gorilla"],
