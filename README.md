@@ -6,7 +6,7 @@ A simple program that reads number sequence from command line and substracts num
 Also provided travis.ci integration
 
 #### Example
-'''fizzbuzz.py 111 222 333'''
+```fizzbuzz.py 111 222 333```
 
 ## Obfs
 ### Simple C code obfuscator
